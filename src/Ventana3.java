@@ -31,6 +31,7 @@ public class Ventana3 extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         Salir.setText("Salir");
         Salir.addActionListener(new java.awt.event.ActionListener() {
