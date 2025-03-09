@@ -28,6 +28,7 @@ public class Ventana6 extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -42,6 +43,8 @@ public class Ventana6 extends javax.swing.JFrame {
 
         jButton3.setText("Modificar Ruta");
 
+        jButton4.setText("Eliminar Ruta");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -51,7 +54,8 @@ public class Ventana6 extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jButton1)
                     .addComponent(jButton2)
-                    .addComponent(jButton3))
+                    .addComponent(jButton3)
+                    .addComponent(jButton4))
                 .addContainerGap(396, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -61,9 +65,11 @@ public class Ventana6 extends javax.swing.JFrame {
                 .addComponent(jButton1)
                 .addGap(56, 56, 56)
                 .addComponent(jButton2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(18, 18, 18)
                 .addComponent(jButton3)
-                .addContainerGap(252, Short.MAX_VALUE))
+                .addGap(12, 12, 12)
+                .addComponent(jButton4)
+                .addContainerGap(211, Short.MAX_VALUE))
         );
 
         pack();
@@ -112,5 +118,6 @@ public class Ventana6 extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     // End of variables declaration//GEN-END:variables
 }
