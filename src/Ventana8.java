@@ -14,6 +14,7 @@ public class Ventana8 extends javax.swing.JFrame {
      */
     public Ventana8() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -51,6 +52,11 @@ public class Ventana8 extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jButton1.setText("Atrás");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jLabel1.setText("Estación Origen:");
 
@@ -151,6 +157,12 @@ public class Ventana8 extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        Ventana6 g = new Ventana6();
+        g.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
